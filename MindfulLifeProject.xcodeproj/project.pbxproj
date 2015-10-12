@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B56AAF851BC9AA06004FC5BC /* SitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AAF841BC9AA06004FC5BC /* SitsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B56AAF871BC9B8F9004FC5BC /* SitsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AAF861BC9B8F9004FC5BC /* SitsModel.swift */; settings = {ASSET_TAGS = (); }; };
 		B56E37181BC1F5630017FA82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E37171BC1F5630017FA82 /* AppDelegate.swift */; };
 		B56E371A1BC1F5630017FA82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E37191BC1F5630017FA82 /* ViewController.swift */; };
 		B56E371D1BC1F5630017FA82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56E371B1BC1F5630017FA82 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B56AAF841BC9AA06004FC5BC /* SitsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SitsTableViewController.swift; sourceTree = "<group>"; };
+		B56AAF861BC9B8F9004FC5BC /* SitsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SitsModel.swift; sourceTree = "<group>"; };
 		B56E37141BC1F5630017FA82 /* MindfulLifeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulLifeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56E37171BC1F5630017FA82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B56E37191BC1F5630017FA82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				B56E371E1BC1F5630017FA82 /* Assets.xcassets */,
 				B56E37201BC1F5630017FA82 /* LaunchScreen.storyboard */,
 				B56E37231BC1F5630017FA82 /* Info.plist */,
+				B56AAF841BC9AA06004FC5BC /* SitsTableViewController.swift */,
+				B56AAF861BC9B8F9004FC5BC /* SitsModel.swift */,
 			);
 			path = MindfulLifeProject;
 			sourceTree = "<group>";
@@ -255,7 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56AAF851BC9AA06004FC5BC /* SitsTableViewController.swift in Sources */,
 				B56E371A1BC1F5630017FA82 /* ViewController.swift in Sources */,
+				B56AAF871BC9B8F9004FC5BC /* SitsModel.swift in Sources */,
 				B56E37181BC1F5630017FA82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +491,7 @@
 				B56E373E1BC1F5630017FA82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B56E373F1BC1F5630017FA82 /* Build configuration list for PBXNativeTarget "MindfulLifeProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +500,7 @@
 				B56E37411BC1F5630017FA82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B56E37421BC1F5630017FA82 /* Build configuration list for PBXNativeTarget "MindfulLifeProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				B56E37441BC1F5630017FA82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
