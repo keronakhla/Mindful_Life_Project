@@ -1,0 +1,6 @@
+framework module Pods_MindfulLifeProject {
+  umbrella header "Pods-MindfulLifeProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

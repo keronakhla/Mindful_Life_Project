@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35CB76A49DD72BFB0ED78E1D /* Pods_MindfulLifeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50587111A89719E512E3D288 /* Pods_MindfulLifeProject.framework */; };
+		B513984D1BCC832100CDCF02 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B513984C1BCC832100CDCF02 /* AVFoundation.framework */; };
 		B56AAF851BC9AA06004FC5BC /* SitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AAF841BC9AA06004FC5BC /* SitsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		B56AAF871BC9B8F9004FC5BC /* SitsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AAF861BC9B8F9004FC5BC /* SitsModel.swift */; settings = {ASSET_TAGS = (); }; };
 		B56E37181BC1F5630017FA82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E37171BC1F5630017FA82 /* AppDelegate.swift */; };
-		B56E371A1BC1F5630017FA82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E37191BC1F5630017FA82 /* ViewController.swift */; };
+		B56E371A1BC1F5630017FA82 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E37191BC1F5630017FA82 /* HomeViewController.swift */; };
 		B56E371D1BC1F5630017FA82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56E371B1BC1F5630017FA82 /* Main.storyboard */; };
 		B56E371F1BC1F5630017FA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56E371E1BC1F5630017FA82 /* Assets.xcassets */; };
 		B56E37221BC1F5630017FA82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56E37201BC1F5630017FA82 /* LaunchScreen.storyboard */; };
 		B56E372D1BC1F5630017FA82 /* MindfulLifeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E372C1BC1F5630017FA82 /* MindfulLifeProjectTests.swift */; };
 		B56E37381BC1F5630017FA82 /* MindfulLifeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E37371BC1F5630017FA82 /* MindfulLifeProjectUITests.swift */; };
+		B59C90F21BD19BAA00A6264A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59C90F11BD19BAA00A6264A /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		B59C90F51BD1A21600A6264A /* SitPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59C90F41BD1A21600A6264A /* SitPlayerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B59C90F71BD1A78000A6264A /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59C90F61BD1A78000A6264A /* ContentModel.swift */; settings = {ASSET_TAGS = (); }; };
+		B59C90F91BD1ADB500A6264A /* LanguageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59C90F81BD1ADB500A6264A /* LanguageSelectViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50587111A89719E512E3D288 /* Pods_MindfulLifeProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindfulLifeProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B513984C1BCC832100CDCF02 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B56AAF841BC9AA06004FC5BC /* SitsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SitsTableViewController.swift; sourceTree = "<group>"; };
 		B56AAF861BC9B8F9004FC5BC /* SitsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SitsModel.swift; sourceTree = "<group>"; };
 		B56E37141BC1F5630017FA82 /* MindfulLifeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulLifeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56E37171BC1F5630017FA82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B56E37191BC1F5630017FA82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B56E37191BC1F5630017FA82 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B56E371C1BC1F5630017FA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B56E371E1BC1F5630017FA82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B56E37211BC1F5630017FA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,12 @@
 		B56E37331BC1F5630017FA82 /* MindfulLifeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindfulLifeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56E37371BC1F5630017FA82 /* MindfulLifeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulLifeProjectUITests.swift; sourceTree = "<group>"; };
 		B56E37391BC1F5630017FA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59C90F11BD19BAA00A6264A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		B59C90F41BD1A21600A6264A /* SitPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SitPlayerViewController.swift; sourceTree = "<group>"; };
+		B59C90F61BD1A78000A6264A /* ContentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		B59C90F81BD1ADB500A6264A /* LanguageSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageSelectViewController.swift; sourceTree = "<group>"; };
+		BE43FC5D52B6DA86DDD1A852 /* Pods-MindfulLifeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindfulLifeProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MindfulLifeProject/Pods-MindfulLifeProject.release.xcconfig"; sourceTree = "<group>"; };
+		D8A81E924AD01CA9C7122606 /* Pods-MindfulLifeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindfulLifeProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MindfulLifeProject/Pods-MindfulLifeProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B513984D1BCC832100CDCF02 /* AVFoundation.framework in Frameworks */,
+				35CB76A49DD72BFB0ED78E1D /* Pods_MindfulLifeProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +94,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033E74FDE560AA7B007B0047 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8A81E924AD01CA9C7122606 /* Pods-MindfulLifeProject.debug.xcconfig */,
+				BE43FC5D52B6DA86DDD1A852 /* Pods-MindfulLifeProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CA7C555BFFF0BE0F65B1197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B513984C1BCC832100CDCF02 /* AVFoundation.framework */,
+				50587111A89719E512E3D288 /* Pods_MindfulLifeProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B56E370B1BC1F5620017FA82 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 				B56E372B1BC1F5630017FA82 /* MindfulLifeProjectTests */,
 				B56E37361BC1F5630017FA82 /* MindfulLifeProjectUITests */,
 				B56E37151BC1F5630017FA82 /* Products */,
+				033E74FDE560AA7B007B0047 /* Pods */,
+				7CA7C555BFFF0BE0F65B1197 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +137,16 @@
 		B56E37161BC1F5630017FA82 /* MindfulLifeProject */ = {
 			isa = PBXGroup;
 			children = (
+				B59C90F31BD19CA300A6264A /* Sits */,
 				B56E37171BC1F5630017FA82 /* AppDelegate.swift */,
-				B56E37191BC1F5630017FA82 /* ViewController.swift */,
+				B59C90F81BD1ADB500A6264A /* LanguageSelectViewController.swift */,
+				B56E37191BC1F5630017FA82 /* HomeViewController.swift */,
+				B59C90F61BD1A78000A6264A /* ContentModel.swift */,
+				B59C90F11BD19BAA00A6264A /* SwiftyJSON.swift */,
 				B56E371B1BC1F5630017FA82 /* Main.storyboard */,
-				B56E371E1BC1F5630017FA82 /* Assets.xcassets */,
 				B56E37201BC1F5630017FA82 /* LaunchScreen.storyboard */,
+				B56E371E1BC1F5630017FA82 /* Assets.xcassets */,
 				B56E37231BC1F5630017FA82 /* Info.plist */,
-				B56AAF841BC9AA06004FC5BC /* SitsTableViewController.swift */,
-				B56AAF861BC9B8F9004FC5BC /* SitsModel.swift */,
 			);
 			path = MindfulLifeProject;
 			sourceTree = "<group>";
@@ -131,6 +169,16 @@
 			path = MindfulLifeProjectUITests;
 			sourceTree = "<group>";
 		};
+		B59C90F31BD19CA300A6264A /* Sits */ = {
+			isa = PBXGroup;
+			children = (
+				B56AAF861BC9B8F9004FC5BC /* SitsModel.swift */,
+				B56AAF841BC9AA06004FC5BC /* SitsTableViewController.swift */,
+				B59C90F41BD1A21600A6264A /* SitPlayerViewController.swift */,
+			);
+			name = Sits;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B56E373C1BC1F5630017FA82 /* Build configuration list for PBXNativeTarget "MindfulLifeProject" */;
 			buildPhases = (
+				B86849ECA64A2356BC707EB5 /* Check Pods Manifest.lock */,
 				B56E37101BC1F5630017FA82 /* Sources */,
 				B56E37111BC1F5630017FA82 /* Frameworks */,
 				B56E37121BC1F5630017FA82 /* Resources */,
+				7A495DB7886050E623E592AB /* Embed Pods Frameworks */,
+				7012EF3F8E75CC99ED681B9F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,14 +307,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7012EF3F8E75CC99ED681B9F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MindfulLifeProject/Pods-MindfulLifeProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A495DB7886050E623E592AB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MindfulLifeProject/Pods-MindfulLifeProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B86849ECA64A2356BC707EB5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B56E37101BC1F5630017FA82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59C90F91BD1ADB500A6264A /* LanguageSelectViewController.swift in Sources */,
+				B59C90F71BD1A78000A6264A /* ContentModel.swift in Sources */,
+				B59C90F51BD1A21600A6264A /* SitPlayerViewController.swift in Sources */,
 				B56AAF851BC9AA06004FC5BC /* SitsTableViewController.swift in Sources */,
-				B56E371A1BC1F5630017FA82 /* ViewController.swift in Sources */,
+				B56E371A1BC1F5630017FA82 /* HomeViewController.swift in Sources */,
 				B56AAF871BC9B8F9004FC5BC /* SitsModel.swift in Sources */,
+				B59C90F21BD19BAA00A6264A /* SwiftyJSON.swift in Sources */,
 				B56E37181BC1F5630017FA82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +507,7 @@
 		};
 		B56E373D1BC1F5630017FA82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A81E924AD01CA9C7122606 /* Pods-MindfulLifeProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MindfulLifeProject/Info.plist;
@@ -415,6 +519,7 @@
 		};
 		B56E373E1BC1F5630017FA82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE43FC5D52B6DA86DDD1A852 /* Pods-MindfulLifeProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MindfulLifeProject/Info.plist;

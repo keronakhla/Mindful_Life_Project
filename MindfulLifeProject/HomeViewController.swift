@@ -7,19 +7,26 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
-
+import AVFoundation
+ 
+class HomeViewController: UIViewController {
+    
+    @IBOutlet weak var sitsButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//        TODO If you click on "Sits" button and you selected spanish, just open SitPlayerViewController programatically
+    }
+    
+    func loadNextView() {
+        print("Clicked!")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
-
 
 }
 
